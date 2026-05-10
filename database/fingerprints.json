@@ -1,0 +1,17 @@
+{
+    "hvc": {
+        "bssid": "00:0e:f4:d1:c5:c8",
+        "security": "WPA2-Personal",
+        "signal": "40%"
+    },
+    "Basit": {
+        "bssid": "18:69:da:4c:6f:eb",
+        "security": "WPA2-Personal",
+        "signal": "62%"
+    },
+    "Baigs": {
+        "bssid": "6c:e8:74:be:64:1c",
+        "security": "WPA2-Personal",
+        "signal": "94%"
+    }
+}

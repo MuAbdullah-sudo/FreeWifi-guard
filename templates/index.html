@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        FreeWiFi Guard
+    </title>
+
+    <link rel="stylesheet" href="static/style.css">
+
+
+</head>
+
+<body>
+
+    <!-- CYBER PARTICLES -->
+    <div id="particles"></div>
+
+    <!-- LIVE STATUS BAR -->
+    <div class="system-status">
+
+        <div class="status-dot"></div>
+
+        <span>
+            SYSTEM ONLINE
+        </span>
+
+    </div>
+
+    <div class="container">
+
+        <div class="glass-card">
+
+            <!-- HEADER -->
+
+            <div class="header-section">
+
+                <div class="title-row">
+
+                    <h1 class="title">
+                        FreeWiFi Guard
+                    </h1>
+
+                    <div class="live-badge">
+                        LIVE
+                    </div>
+
+                </div>
+
+                <p class="subtitle">
+                    AI-Powered Public Wi-Fi Threat Detection System
+                </p>
+
+            </div>
+
+            <!-- BUTTONS -->
+
+            <div class="button-group">
+
+                <button id="scan-btn"
+                        class="primary-btn">
+
+                    Scan Networks
+
+                </button>
+
+                <button id="history-btn"
+                        class="secondary-btn">
+
+                    View Scan History
+
+                </button>
+
+            </div>
+
+            <!-- DASHBOARD STATS -->
+
+            <div class="stats-grid">
+
+                <div class="stat-card">
+
+                    <h2 id="total-networks">
+                        0
+                    </h2>
+
+                    <p>
+                        Networks
+                    </p>
+
+                </div>
+
+                <div class="stat-card safe-card">
+
+                    <h2 id="safe-networks">
+                        0
+                    </h2>
+
+                    <p>
+                        Safe
+                    </p>
+
+                </div>
+
+                <div class="stat-card suspicious-card">
+
+                    <h2 id="suspicious-networks">
+                        0
+                    </h2>
+
+                    <p>
+                        Suspicious
+                    </p>
+
+                </div>
+
+                <div class="stat-card dangerous-card">
+
+                    <h2 id="dangerous-networks">
+                        0
+                    </h2>
+
+                    <p>
+                        Dangerous
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- LIVE CYBER ALERT PANEL -->
+
+            <div class="alerts-panel">
+
+                <div class="alerts-header">
+
+                    <h2>
+                        Live Cyber Alerts
+                    </h2>
+
+                    <div class="alert-live">
+                        MONITORING
+                    </div>
+
+                </div>
+
+                <div id="alerts-container">
+
+                    <div class="alert-card info-alert">
+
+                        Waiting for packet activity...
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- RESULTS -->
+
+            <div id="results">
+
+                <div class="welcome-box">
+
+                    <h3>
+                        Real-Time Cybersecurity Monitoring
+                    </h3>
+
+                    <p>
+                        Analyze nearby public Wi-Fi networks and detect Evil Twin attacks, suspicious access points, and dangerous hotspots using intelligent threat analysis.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
