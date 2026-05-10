@@ -12,7 +12,6 @@ Free-Wi-Fi Guard is a Python-based security tool designed to protect users from 
 
 ## 🛠️ Tech Stack
 - **Language:** Python 3.x
-- **Libraries:** Scapy (Packet Analysis)
 - **OS Support:** Linux (Monitor Mode required), Windows (Basic Scanning)
 
 Install Dependencies:
@@ -20,6 +19,11 @@ pip install -r requirements.txt
 
 Run the Tool:
 python3 app.py
+
+## 🚀 Installation & Usage
+1. **Clone the Repo:**
+   ```bash
+   git clone https://github.com/MuAbdullah-sudo/FreeWifi-guard.git
 
 ## 🛡️ Disclaimer
 This tool is for **Educational Purposes Only**. Do not use it for unauthorized network interference. 
